@@ -148,7 +148,12 @@ Aşağıdaki metrikler eğitim seti üzerinden elde edilmiştir:
 
 Metrik-Değer Tablosu:
 
-![alt text](results.png)
+<img width="2400" height="1200" alt="results" src="https://github.com/user-attachments/assets/5d087834-b4ab-45a1-88f1-9eb330c1a12c" />
+
+Confusion-Matrix:
+
+<img width="3000" height="2250" alt="confusion_matrix" src="https://github.com/user-attachments/assets/b0966125-ba7f-4f1b-ba2d-5b7b6047912c" />
+
 
 
 ---
@@ -172,13 +177,6 @@ face-detector/
 ├── best.onnx                              # ONNX formatına dönüştürülmüş model
 └── README.md
 ```
-
----
-
-## Lisans
-
-Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır. Lütfen ayrıntılar için `LICENSE` dosyasına bakın.
-
 ---
 
 *README.md, 2025 © BÜŞRA DERTLİ*
