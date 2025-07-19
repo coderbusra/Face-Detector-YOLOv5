@@ -13,7 +13,6 @@ Bu proje, Ultralytics YOLOv5 kullanılarak kişisel yüz tanıma modeli gelişti
 7. [Algılama (Inference)](#alg%C4%B1lama-inference)
 8. [Sonuçlar ve Değerlendirme](#sonu%C3%A7lar-ve-de%C4%9Ferleme)
 9. [Dosya Yapısı](#dosya-yap%C4%B1s%C4%B1)
-10. [Lisans](#lisans)
 
 ---
 
@@ -73,7 +72,7 @@ Bu proje ile:
 - **Model Ağırlıkları**: `weights/best.pt` ve (isteğe bağlı) `weights/best.onnx`. Büyük dosyalar için Git LFS önerilir.
 - **Data Tanım Dosyası**: `face_dataset/_face-recognition-system.v1i.darknet/data.yaml` (sınıf isimleri, eğitim/doğrulama yolları).
 - **requirements.txt**: Projede kullanılan tüm bağımlılık ve sürümleri içerir.
-- **Sonuç Görselleri**: `assets/` klasöründe örnek inference çıktıları.
+- **Sonuç Görseli (results.png)**
 
 ---
 
