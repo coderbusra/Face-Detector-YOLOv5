@@ -66,6 +66,17 @@ Bu proje ile:
 
 ---
 
+---
+
+## Ek Dosyalar
+
+- **Model Ağırlıkları**: `weights/best.pt` ve (isteğe bağlı) `weights/best.onnx`. Büyük dosyalar için Git LFS önerilir.
+- **Data Tanım Dosyası**: `face_dataset/_face-recognition-system.v1i.darknet/data.yaml` (sınıf isimleri, eğitim/doğrulama yolları).
+- **requirements.txt**: Projede kullanılan tüm bağımlılık ve sürümleri içerir.
+- **Sonuç Görselleri**: `assets/` klasöründe örnek inference çıktıları.
+
+---
+
 ## Eğitim
 
 Aşağıdaki komut ile modeli eğitebilirsiniz:
