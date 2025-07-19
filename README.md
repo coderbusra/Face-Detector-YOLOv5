@@ -69,10 +69,10 @@ Bu proje ile:
 
 ## Ek Dosyalar
 
-- **Model Ağırlıkları**: `weights/best.pt` ve (isteğe bağlı) `weights/best.onnx`. Büyük dosyalar için Git LFS önerilir.
-- **Data Tanım Dosyası**: `face_dataset/_face-recognition-system.v1i.darknet/data.yaml` (sınıf isimleri, eğitim/doğrulama yolları).
-- **requirements.txt**: Projede kullanılan tüm bağımlılık ve sürümleri içerir.
-- **Sonuç Görseli (results.png)**
+- **Model Ağırlıkları**: `best.pt`.
+- **Data Tanım Dosyası**: `data.yaml`.
+- **requirements.txt**: Projede kullanılan tüm bağımlılık ve sürümleri içerir. `requirements.txt`.
+- **Sonuç Görseli**: `results.png`.
 
 ---
 
@@ -156,11 +156,12 @@ Aşağıdaki metrikler eğitim seti üzerinden elde edilmiştir:
 | mAP\@0.5:0.95 | **0.924**     |
 | Inference FPS | **110**       |
 
-Metrik-Değer Tablosu:
+  ### Metrik-Değer Tablosu:
 
 <img width="2400" height="1200" alt="results" src="https://github.com/user-attachments/assets/5d087834-b4ab-45a1-88f1-9eb330c1a12c" />
 
-Confusion-Matrix:
+
+   ### Confusion-Matrix:
 
 <img width="3000" height="2250" alt="confusion_matrix" src="https://github.com/user-attachments/assets/b0966125-ba7f-4f1b-ba2d-5b7b6047912c" />
 
